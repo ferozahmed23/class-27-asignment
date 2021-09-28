@@ -1,0 +1,186 @@
+*{padding: 0;
+  margin: 0 ;
+  box-sizing: border-box;
+}
+h1,h2{
+     font-family: 'Open Sans', sans-serif,
+}
+.full-width{
+    max-width: 100%;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container{
+  max-width: 1280px;
+}
+.full-widthe{
+    background: #22C3A3; 
+}
+.logo {
+    padding: 0px 32px;
+    color: white; 
+    float: left;
+    width: 24%; 
+    line-height: 71px;
+}
+.menu-bar {
+    float: right;
+}
+.menu-bar ul {
+    margin-right: 45px;
+}
+.menu-bar ul li {
+    list-style: none;
+    padding: 27px 5px;
+    display: inline-block; 
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+/* LOGO BENAR */
+.image-benar{
+    background-image: url(https://i.postimg.cc/brQX4qgF/header-bg01.jpg );  
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 524px; 
+}
+.titel-bar{
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+}
+.titel {
+    text-align: center;
+    color: white;
+}
+.titel h1 {
+    font-size: 53px;
+    margin-bottom: 20px; 
+}
+.titel p{
+    
+    font-size: 19px;
+    margin-bottom: 60px; 
+}
+.titel span {
+    padding: 10px 21px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+span a {
+    text-decoration: none;
+    color: white;
+}
+
+/* our-service */
+.our-ser {
+    text-align: center; 
+    margin: 94px 0px; 
+}
+.icon-div {
+    height: 127px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    margin-left: 40px; 
+}
+.icon-divs {
+    height: 127px;
+    text-align: center;
+    float: left;
+    width: 20%; 
+    margin-left: 116px; 
+}
+.container.clearfix {
+    margin-bottom: 112px;
+}
+.full-width {
+    /*! max-width: 100%; */
+}
+.text-dev {
+    width: 609px; 
+    margin-left: 23px;
+    float: right; 
+    margin-right: 7px; 
+}
+.img-div {
+    float: left;
+}
+img {
+    max-width: 438px;
+    margin-left: 22px;
+} 
+hr {
+    color: #0DBF9B;
+}
+.our-ser h2 {
+    margin-bottom: 31px;
+}
+.full-width.clearfix {
+    background: #F6F6F6;
+    padding-top: 1px;
+}
+.full-widtht.clearfix {
+    margin-bottom: 80px;
+}
+.text-dev p {
+    margin-bottom: 17px;
+}
+.text-dev h3 {
+    margin-bottom: 10px; 
+}
+.icon-div h3 {
+    margin-bottom: 14px;
+}
+ .fas.fa-desktop {
+    color: #0DBF9B;
+    font-size: 43px;
+    margin-bottom: 20px; 
+}
+.far.fa-lightbulb{
+    color: #0DBF9B;
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+.fas.fa-rocket{
+    color: #0DBF9B;
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+.fas.fa-map-marker{
+    color: #0DBF9B;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.fas.fa-envelope{
+    color: #0DBF9B;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.fas.fa-phone{
+    color: #0DBF9B;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+/* footer */
+.footer {
+    text-align: center;
+    background: #0DBF9B;
+}
+
+.footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 22px 10px;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
